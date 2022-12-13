@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(216, 237, 255);
+}
+
+.container{
+    padding:8px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.firstcontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e38826;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+.middlecontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #006970;
+}
+.lastcontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #004241;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+.logo{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.3;
+    margin-left: 35px;
+    
+   
+
+}
+.circle i{
+    margin-top: 10px;
+    margin-left:  23px;
+    color: white;
+} 
+.heading{
+    width: 80%;
+    height: 25%;
+}
+.heading p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+.content{
+    width: 70%;
+    height: 25%;
+
+}
+.content p{
+    font-size: 32px;
+    color:rgb(228, 218, 218);
+    font-family: sans-serif;
+    text-align: left;
+
+}
+.learnmore{
+    width: 70%;
+    height: 25%;
+}
+button{
+    height: 85px;
+    width: 200px;
+    margin-top: 14px;
+    padding: 20px;
+    border-radius: 38px;
+    border: transparent;
+    color: #e38826;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color:rgb(228, 218, 218);
+    font-family: inherit,sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-left: 35px;
+    
+    
+}
